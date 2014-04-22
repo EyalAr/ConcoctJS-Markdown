@@ -1,0 +1,44 @@
+{
+  "name": "concoct-markdown",
+  "version": "0.0.1",
+  "description": "Markdown plugin for ConcoctJS.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "DEBUG=\"concoct:* -concoct:debug\" mocha -R spec ./test/tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EyalAr/ConcoctJS-Markdown.git"
+  },
+  "keywords": [
+    "concoctjs",
+    "concoct",
+    "plugin",
+    "template",
+    "compiler",
+    "content",
+    "context",
+    "markdown"
+  ],
+  "author": "Eyal Arubas <eyalarubas@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EyalAr/ConcoctJS-Markdown/issues"
+  },
+  "homepage": "https://github.com/EyalAr/ConcoctJS-Markdown",
+  "dependencies": {
+    "marked": "^0.3.2",
+    "highlight.js": "^8.0.0",
+    "concoct": "0.0.4",
+    "concoct-content-loader": "0.0.2"
+  },
+  "devDependencies": {
+    "should": "~3.3.0",
+    "mocha": "~1.18.2",
+    "concoct": "0.0.4",
+    "rimraf": "^2.2.6",
+    "concoct-mustache": "0.0.2",
+    "concoct-named-buffers": "0.0.1",
+    "concoct-content-loader": "0.0.2"
+  }
+}
